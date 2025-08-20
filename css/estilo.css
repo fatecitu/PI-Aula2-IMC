@@ -1,0 +1,24 @@
+/* Projeto CSS */
+body{
+    font-family: sans-serif;
+    background: #3498db; 
+    display: flex;
+    justify-content: center;   
+}
+h1 {color: #0000FF}
+.container{
+    background: white;
+    max-width: 400px; /*largura máxima em pixels*/
+    padding: 24px; /*distância interna*/
+    border-radius: 16px; /*arredonda os cantos*/
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.5)
+    /* onde: 0 deslocamento horizontal
+             4 deslocamento vertical
+            16 ponto de desfoque. quanto > mais 'embaçado'
+            rgba código da cor. último valor é o alpha da
+            transparência
+    */
+}
+.logo{
+    width: 150px; /*largura em pixels*/
+}
