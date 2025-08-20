@@ -21,4 +21,38 @@ h1 {color: #0000FF}
 }
 .logo{
     width: 150px; /*largura em pixels*/
+    display: block;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    flex-direction: column; /*default é row*/
+    gap: 8px; /* distância padrão entre os elementos */
+}
+label{
+    font-weight: bold; /* negrito */
+    font-size: 1.1em; /* aumentamos em 10% a fonte padrão */
+}
+input{
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 8px;
+    border-radius: 8px;
+    border: none; /* nenhuma */
+    color: #fff;    
+}
+.calcular{
+    background:#3498db;
+}
+.calcular:hover{
+    background: #031c2d;
+}
+.limpar{
+    background: #e74c3c;
+}
+.limpar:hover{
+    background: #370e0a;
 }
